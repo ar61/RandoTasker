@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Categories" representedClassName="Categories" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="TaskStatistics" representedClassName="TaskStatistics" syncable="YES" codeGenerationType="class">
+        <attribute name="consecutive" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endHrfor30Days" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="startdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="total" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TemporaryTodoDone" representedClassName="TemporaryTodoDone" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TodaysTasks" representedClassName="TodaysTasks" syncable="YES" codeGenerationType="class">
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Categories" positionX="-171" positionY="-72" width="128" height="44"/>
+        <element name="TaskStatistics" positionX="-60.06597900390625" positionY="-142.3649597167969" width="143.4028930664062" height="133"/>
+        <element name="TodaysTasks" positionX="-330.43896484375" positionY="-69.26956176757812" width="128" height="74"/>
+        <element name="TemporaryTodoDone" positionX="-189" positionY="-81" width="128" height="59"/>
+    </elements>
+</model>

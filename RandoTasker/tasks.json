@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "0ec52162-6cf8-4127-933d-5d0bb0bae4a4",
+        "value" : "Draw a picture",
+        "selected" : "false"
+    },
+    {
+        "id" : "85d898fc-f67c-4291-b5f1-b9e25756fce0",
+        "value" : "Practice guitar",
+        "selected" : "false"
+    },
+    {
+        "id" : "cfd0e842-9224-473c-8fba-0be4dfffa96a",
+        "value" : "Read a book",
+        "selected" : "false"
+    },
+    {
+        "id" : "b4ac8538-0dc0-46af-8846-980b52b848fa",
+        "value" : "Watch/code Dynamic Programming videos",
+        "selected" : "false"
+    },
+    {
+        "id" : "5a9270aa-c174-4e6b-9107-6523f3287a47",
+        "value" : "Read C++ article on isocpp",
+        "selected" : "false"
+    }
+]
